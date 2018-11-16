@@ -15,10 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
+
 }
 a:hover {
-  color: black;
+  color: steelblue;
 }
 
 /* Section Styles */
@@ -46,6 +47,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+  color: white;
   transition: all .5s;
 }
 .nav a:hover {
@@ -90,12 +92,12 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: white;
+  border-bottom: 4px solid slategray;
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: darkslategray;
 }
 
 ul.skills {
@@ -106,14 +108,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: turquoise;
   color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: paleturquoise;
 }
 
 footer {
