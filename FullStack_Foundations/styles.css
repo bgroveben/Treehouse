@@ -11,6 +11,10 @@ body {
   color: black;
   background: lightsteelblue;
 }
+
+h1,h2,h3,h4 {
+  color: darkblue;
+}
 /* Link Styles */
 
 a {
@@ -19,7 +23,7 @@ a {
 
 }
 a:hover {
-  color: steelblue;
+  color: blue;
 }
 
 /* Section Styles */
@@ -51,12 +55,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: steelblue;
+  color: deepskyblue;
 }
 
 header {
   text-align: center;
-  background: url('images/bgrand_logo.png') no-repeat top center ;
+  background: url('images/brand_logo.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -73,11 +77,10 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: white;
-  color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -108,14 +111,13 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: turquoise;
-  color: black;
+  background: lightskyblue;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: paleturquoise;
+  background: lightsteelblue;
 }
 
 footer {
@@ -128,6 +130,7 @@ footer .copyright {
   top: -8px;
   margin-right: 20px;
   font-size: .75em;
+  color:darkblue;
 }
 
 footer ul {
