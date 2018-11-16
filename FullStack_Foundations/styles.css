@@ -8,17 +8,17 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: black;
+  background: lightsteelblue;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a:hover {
-  color: white;
+  color: black;
 }
 
 /* Section Styles */
@@ -49,7 +49,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: black
+  color: steelblue;
 }
 
 header {
@@ -71,7 +71,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
