@@ -127,8 +127,6 @@ footer {
 }
 
 footer .copyright {
-  top: -8px;
-  margin-right: 20px;
   font-size: .75em;
   color:darkblue;
 }
@@ -146,21 +144,25 @@ footer ul li {
 a.social {
   display: inline-block;
   text-indent: -9999px;
+  /*
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  */
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
   opacity: .5;
   transition: all .25s;
+  background-color: blue;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(img/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(img/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(img/github.svg);
 }
 a.social:hover {
   opacity: 1;
