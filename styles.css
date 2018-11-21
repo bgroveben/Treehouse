@@ -18,9 +18,10 @@ h1,h2,h3,h4 {
 /* Link Styles */
 
 a {
+  outline: none;
   text-decoration: none;
-
 }
+
 a:hover {
   color: blue;
 }
@@ -28,6 +29,14 @@ a:hover {
 ul li a {
   color: midnightblue;
 }
+
+address {
+  outline: none;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 1.3em;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -147,6 +156,14 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+.contact {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 6px;
+  display: table;
+  margin: 10px auto;
 }
 
 a.social {
